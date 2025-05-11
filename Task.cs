@@ -1,14 +1,10 @@
 using System;
+
 namespace TaskManager
 {
-    public enum TaskPriority
-    {
-        Low, Medium, High
-    }
-    public enum TaskStatus
-    {
-        NotStarted, InProgress, Completed
-    }
+    public enum TaskPriority { Low, Medium, High }
+    public enum TaskStatus { ToDo, InProgress, Done }
+
     public class Task
     {
         public int Id { get; set; }
@@ -17,15 +13,15 @@ namespace TaskManager
         public TaskPriority Priority { get; set; }
         public TaskStatus Status { get; set; }
         public DateTime CreatedAt { get; set; }
-        public Task (int id, string title, string description, TaskPriority priority, TaskStatus status)
+
+        public Task(int id, string title, string description, TaskPriority priority)
         {
             Id = id;
             Title = title;
             Description = description;
             Priority = priority;
-            Status = status;
+            Status = TaskStatus.ToDo;
             CreatedAt = DateTime.Now;
         }
     }
-    
 }
