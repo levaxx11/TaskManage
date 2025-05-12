@@ -21,7 +21,14 @@ namespace TaskManager
                 Console.Write("Choose an option: ");
 
                 string choice = Console.ReadLine();
-                Console.Clear();
+                try
+                {
+                    Console.Clear();
+                }
+                catch (IOException)
+                {
+                    Console.WriteLine(new string('-', 50)); 
+                }
 
                 switch (choice)
                 {

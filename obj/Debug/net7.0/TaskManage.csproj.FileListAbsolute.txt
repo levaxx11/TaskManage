@@ -1,0 +1,14 @@
+d:\WorkCSharp\TaskManage\bin\Debug\net7.0\TaskManage.exe
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\TaskManage.deps.json
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\TaskManage.runtimeconfig.json
+d:\WorkCSharp\TaskManage\bin\Debug\net7.0\TaskManage.dll
+d:\WorkCSharp\TaskManage\bin\Debug\net7.0\TaskManage.pdb
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.GeneratedMSBuildEditorConfig.editorconfig
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.AssemblyInfoInputs.cache
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.AssemblyInfo.cs
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.csproj.CoreCompileInputs.cache
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.dll
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\refint\TaskManage.dll
+d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.pdb
+D:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.genruntimeconfig.cache
+D:\WorkCSharp\TaskManage\obj\Debug\net7.0\ref\TaskManage.dll

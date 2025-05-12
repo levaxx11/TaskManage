@@ -1,19 +1,22 @@
 using System;
 using System.Collections.Generic;
+
 namespace TaskManager
 {
     public class TaskRepository
     {
         private List<Task> tasks = new List<Task>();
+
         public void AddTask(string title, string description, TaskPriority priority)
         {
             int newId = tasks.Count > 0 ? tasks[^1].Id + 1 : 1;
             tasks.Add(new Task(newId, title, description, priority));
             Console.WriteLine("Task added successfully!");
         }
-        public void UpdateTask(int id, string title, string description, TaskPriority priority, TaskStatus status)
+
+        public void EditTask(int id, string title, string description, TaskPriority priority, TaskStatus status)
         {
-            Task task = tasks.Find(t => t.Id == id);
+            var task = tasks.Find(t => t.Id == id);
             if (task != null)
             {
                 task.Title = title;
@@ -27,9 +30,10 @@ namespace TaskManager
                 Console.WriteLine("Task not found!");
             }
         }
+
         public void DeleteTask(int id)
         {
-            Task task = tasks.Find(t => t.Id == id);
+            var task = tasks.Find(t => t.Id == id);
             if (task != null)
             {
                 tasks.Remove(task);
@@ -41,5 +45,9 @@ namespace TaskManager
             }
         }
 
+        public List<Task> GetTasks()
+        {
+            return tasks;
+        }
     }
 }
