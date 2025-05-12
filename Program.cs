@@ -21,14 +21,6 @@ namespace TaskManager
                 Console.Write("Choose an option: ");
 
                 string choice = Console.ReadLine();
-                try
-                {
-                    Console.Clear();
-                }
-                catch (IOException)
-                {
-                    Console.WriteLine(new string('-', 50)); 
-                }
 
                 switch (choice)
                 {
@@ -46,34 +38,28 @@ namespace TaskManager
 
                     case "2":
                         Console.Write("Enter task ID: ");
-                        if (int.TryParse(Console.ReadLine(), out int id))
+                        int id = int.Parse(Console.ReadLine());
+                        Console.Write("Enter new title: ");
+                        title = Console.ReadLine();
+                        Console.Write("Enter new description: ");
+                        desc = Console.ReadLine();
+                        Console.Write("Enter new priority (0=Low, 1=Medium, 2=High): ");
+                        if (Enum.TryParse(Console.ReadLine(), out priority))
                         {
-                            Console.Write("Enter new title: ");
-                            title = Console.ReadLine();
-                            Console.Write("Enter new description: ");
-                            desc = Console.ReadLine();
-                            Console.Write("Enter new priority (0=Low, 1=Medium, 2=High): ");
-                            if (Enum.TryParse(Console.ReadLine(), out priority))
-                            {
-                                Console.Write("Enter new status (0=ToDo, 1=InProgress, 2=Done): ");
-                                if (Enum.TryParse(Console.ReadLine(), out TaskStatus status))
-                                    manager.EditTask(id, title, desc, priority, status);
-                                else
-                                    Console.WriteLine("Invalid status!");
-                            }
+                            Console.Write("Enter new status (0=ToDo, 1=InProgress, 2=Done): ");
+                            if (Enum.TryParse(Console.ReadLine(), out TaskStatus status))
+                                manager.EditTask(id, title, desc, priority, status);
                             else
-                                Console.WriteLine("Invalid priority!");
+                                Console.WriteLine("Invalid status!");
                         }
                         else
-                            Console.WriteLine("Invalid ID!");
+                            Console.WriteLine("Invalid priority!");
                         break;
 
                     case "3":
                         Console.Write("Enter task ID: ");
-                        if (int.TryParse(Console.ReadLine(), out id))
-                            manager.DeleteTask(id);
-                        else
-                            Console.WriteLine("Invalid ID!");
+                        id = int.Parse(Console.ReadLine());
+                        manager.DeleteTask(id);
                         break;
 
                     case "4":

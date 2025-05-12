@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkCSharp\\TaskManage\\TaskManage.csproj",
+      "projectUniqueName": "C:\\Users\\levax\\Source\\Repos\\TaskManage\\TaskManage.csproj",
       "projectName": "TaskManage",
-      "projectPath": "D:\\WorkCSharp\\TaskManage\\TaskManage.csproj",
+      "projectPath": "C:\\Users\\levax\\Source\\Repos\\TaskManage\\TaskManage.csproj",
       "packagesPath": "C:\\Users\\levax\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkCSharp\\TaskManage\\obj\\",
+      "outputPath": "C:\\Users\\levax\\Source\\Repos\\TaskManage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VisualStudioShared\\NuGetPackages"
