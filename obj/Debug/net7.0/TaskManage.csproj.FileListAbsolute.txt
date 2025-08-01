@@ -12,3 +12,11 @@ d:\WorkCSharp\TaskManage\obj\Debug\net7.0\refint\TaskManage.dll
 d:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.pdb
 D:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.genruntimeconfig.cache
 D:\WorkCSharp\TaskManage\obj\Debug\net7.0\ref\TaskManage.dll
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Data.SqlClient.dll
+D:\WorkCSharp\TaskManage\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Data.SqlClient.dll
+D:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.csproj.AssemblyReference.cache
+D:\WorkCSharp\TaskManage\obj\Debug\net7.0\TaskManage.csproj.CopyComplete

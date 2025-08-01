@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "8RH/AEcvyNHbwhPlwL0sDXEYNyXeXAD3MRXowt5JPN9wgUEnc2iU2EupLJGYDl02UACE9lSMZ/fsR7mT9yH9GA==",
+  "dgSpecHash": "Ijh4P/O3QsTInIte18zyQjwfzVsdJozPSTQjfWTZrU12vGurfozRcVNpTSC1Kwg+dPFkIVISBMQO4xi0oIE7TQ==",
   "success": true,
   "projectFilePath": "D:\\WorkCSharp\\TaskManage\\TaskManage.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\levax\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\levax\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\levax\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\levax\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\levax\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
   "logs": []
 }
