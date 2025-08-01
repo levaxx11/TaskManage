@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\bin",
     "\\bin\\Debug",
     "\\bin\\Debug\\net7.0"
   ],
   "SelectedNode": "\\bin\\Debug\\net7.0\\TaskManage.dll",
+=======
+    ""
+  ],
+>>>>>>> 6a39ccb5e0c7a80cf62b8d65d345759228537bdc
   "PreviewInSolutionExplorer": false
 }
